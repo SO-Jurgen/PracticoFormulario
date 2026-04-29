@@ -1,0 +1,43 @@
+:root {
+    --color-primario: #1b2838;
+    --color-secundario: #2a475e;
+    --color-terciario: #16202d;
+
+}
+
+
+body {
+    background-color: var(--color-secundario);
+    color: #fff;
+    font-family: 'Segoe UI';
+    display: flex;
+    flex-direction: column;      
+    align-items: center;         
+    justify-content: center;     
+}
+
+form {
+    max-width: 600px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 6px;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+input[type="submit"] {
+    width: 6em;
+    height: 3em;
+}
+
+textarea {
+    border: 2px solid var(--color-terciario);
+}
+
+input {
+    border: 2px solid var(--color-terciario);
+}
